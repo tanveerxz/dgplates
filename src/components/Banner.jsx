@@ -36,7 +36,7 @@ const Banner = () => {
       <div className="absolute inset-0 flex flex-col justify-between">
         {/* Banner */}
         <div className="flex-1 relative">
-          <div className={`absolute inset-0 max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`} style={{ backgroundImage: `url(${backgroundImages[currentBgIndex]})`, backgroundSize: 'cover', backgroundPosition: 'center', transition: 'background-image 1s ease-in-out' }}>
+          <div className={`absolute inset-0 max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`} style={{ backgroundImage: `url(${backgroundImages[currentBgIndex]})`, backgroundSize: 'contain', backgroundPosition: 'center', transition: 'background-image 1s ease-in-out' }}>
             <div className="flex flex-col justify-center items-center mt-5">
               {/* Your other content goes here */}
             </div>
